@@ -5,7 +5,7 @@ import json
 
 lr = 0.001
 
-load_data = open('/trim_new.json','r')
+load_data = open('./trim_new.json','r')
 s = json.load(load_data)
 
 #a =len(s[0][2])
